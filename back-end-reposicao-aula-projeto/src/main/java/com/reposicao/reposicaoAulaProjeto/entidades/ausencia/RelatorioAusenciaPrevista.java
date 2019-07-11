@@ -7,10 +7,8 @@ import org.springframework.stereotype.Component;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
 import java.io.Serializable;
-import java.util.Date;
+
 
 
 @Builder
@@ -22,11 +20,7 @@ import java.util.Date;
 public class RelatorioAusenciaPrevista extends AbstractRelatorioAusencia implements Serializable {
 
     @Column
-    private String motivo;
-
-    @Column
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date dataComunicado;
+    private String dataComunicado;
 
 }
 

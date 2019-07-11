@@ -16,7 +16,7 @@ import lombok.extern.java.Log;
 public class AlunoService {
 
 
-     @Autowired
+    @Autowired
     private AlunoRepository alunoRepository;
 
     @GetMapping("/servico/aluno")

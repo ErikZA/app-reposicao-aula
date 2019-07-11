@@ -18,5 +18,5 @@ import java.io.Serializable;
 public class RelatorioAusenciaNaoInformada extends AbstractRelatorioAusencia implements Serializable {
 
     @Column
-    private String comentario;
+    private String comentarioCordenador;
 }

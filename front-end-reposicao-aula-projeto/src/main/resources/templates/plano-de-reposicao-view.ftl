@@ -25,7 +25,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <form action="/planoReposicao/criar" method="post">
+                <form action="/plano/criar" method="post">
                     <div class="form-group">
                             <label for="motivoSaida">Motivo Saida:</label>
                             <select class="form-control" id="motivoSaida" name="motivoSaida">
@@ -34,45 +34,47 @@
                                 <option id="motivoSaidaNaoInformada" name="motivoSaidaNaoInformada">NAO_INFORMADA</option>
                               </select>
                         </div>
-                        <div class="form-group">
-                                <label for="comentarioSaida">Motivo / Comentario:</label>
-                                <input value="${(alunoAtual.matricula)!}"  name="comentarioSaida" type="text" class="form-control" id="comentarioSaida">
+                         <div class="form-group">
+                                <label for="motivoComentario">Motivo / Comentario:</label>
+                                <input value="${(ausencia.motivoComentario)!}"  name="motivoComentario" type="text" class="form-control" id="motivoComentario">
                             </div>
                     <div class="form-group">
-                        <label for="ausenciaSaida">Data da Saida:</label>
-                        <input value="${(alunoAtual.name)!}" name="ausenciaSaida" type="date" class="form-control" id="ausenciaSaida">
+                        <label for="dataSaida">Data da Saida:</label>
+                        <input value="${(ausencia.dataSaida)!}" name="dataSaida" type="text" class="form-control" id="dataSaida">
                     </div>
                     <div class="form-group">
-                        <label for="ausenciaRetorno">Data da Retorno:</label>
-                        <input value="${(alunoAtual.name)!}" name="ausenciaRetorno" type="date" class="form-control" id="ausenciaRetorno">
+                        <label for="dataRetorno">Data da Retorno:</label>
+                        <input value="${(ausencia.dataRetorno)!}" name="dataRetorno" type="text" class="form-control" id="dataRetorno">
                     </div>
-                    <div class="form-group">
-                            <label for="dataReposicao">Data da Reposição:</label>
-                            <input value="${(alunoAtual.name)!}" name="dataReposicao" type="date" class="form-control" id="dataReposicao">
+                        <div class="form-group">
+                            <label for="dataAula">Data da Reposição:</label>
+                            <input value="${(diario.dataAula)!}" name="dataAula" type="text" class="form-control" id="dataAula">
                         </div>
                     <div class="form-group">
                         <label for="conteudoReposicao">Conteudo Reposição:</label>
-                        <input value="${(alunoAtual.matricula)!}"  name="conteudoReposicao" type="text" class="form-control" id="conteudoReposicao">
+                        <input value="${(plano.conteudoReposicao)!}"  name="conteudoReposicao" type="text" class="form-control" id="conteudoReposicao">
                     </div>
                     <div class="form-group">
                         <label for="aprovacaoAlunos">Porcentagen de Alunos que Aprovão:</label>
-                        <input value="${(alunoAtual.matricula)!}"  name="aprovacaoAlunos" type="number" class="form-control" id="aprovacaoAlunos">
+                        <input value="${(plano.aprovacaoAlunos)!}"  name="aprovacaoAlunos" type="number" class="form-control" id="aprovacaoAlunos">
                     </div>
                     <div class="form-group">
-                        <label for="aulasAplicadas">Aulas a serem Aplicadas:</label>
-                        <input value="${(alunoAtual.matricula)!}"  name="aulasAplicadas" type="number" class="form-control" id="aulasAplicadas">
+                        <label for="quantidadeDeAulas">Aulas a serem Aplicadas:</label>
+                        <input value="${(plano.quantidadeDeAulas)!}"  name="quantidadeDeAulas" type="number" class="form-control" id="quantidadeDeAulas">
                     </div>   
                     <div class="form-group">
-                        <label for="categoriaReposicao">Categoria da Reposição:</label>
-                        <select class="form-control" id="categoriaReposicao" name="categoriaReposicao">
-                            <option id="categoriaReposicaoPresencial" name="categoriaReposicaoPresencial">PRESENCIAL</option>
-                            <option id="categoriaReposicaoNaoPresencial" name="categoriaReposicaoNaoPresencial">NAO_PRESENCIAL</option>
+                        <label for="categoria">Categoria da Reposição:</label>
+                        <select class="form-control" id="categoria" name="categoria">
+                            <option id="PRESENCIAL" name="PRESENCIAL">PRESENCIAL</option>
+                            <option id="NAO_PRESENCIAL" name="NAO_PRESENCIAL">NAO_PRESENCIAL</option>
                           </select>
                     </div>
                     <div class="form-group">
                         <label for="aprovar">Aprovar Plano: (Tarefa do Cordenador)</label>
                         <div><label><input value="Aprovado" name="aprovar" type="radio" class="form-control" id="aprovar" disabled>Aprovado</label></div>
                         <div><label><input value="Reprovado" name="aprovar" type="radio" class="form-control" id="aprovar" disabled>Reprovado</label></div>
+                        <div><label><input value="Pendente" name="aprovar" type="radio" class="form-control" id="aprovar" disabled checked>Pendente</label></div>
+
                     </div>
 
                     <button type="submit" class="btn btn-primary">Criar</button>
@@ -93,24 +95,34 @@
                             <th>Aprovado Pelos Alunos</th>
                             <th>Aulas Repostas</th>
                             <th>Categoria Reposição</th>
-                            <th>Ação</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <#list alunos as aluno>
+                        <#list planos as plano>
                             <tr>
-                                    <th> Motivo Saida</th>
-                                    <th>Data Saida</th>
-                                    <th>Data Retorno</th>
-                                    <th>Data Reposição</th>
-                                    <th>conteudo Reposicao</th>
-                                    <th>Aprovado Pelos Alunos</th>
-                                    <th>Aulas Repostas</th>
-                                    <th>Categoria Reposição</th>
-                                <td>
-                                    <a href="/planoReposicao/prepara-alterar?id=${aluno.id}">Alterar</a>
-                                    <a href="/planoReposicao/excluir?id=${aluno.id}">Excluir</a>
-                                </td>
+                                <#list ausencias as ausencia>
+                                        <#if plano.ausencia == ausencia.id>
+                                            <th>${ausencia.motivoComentario}</th>
+                                        </#if>
+
+                                        <#if plano.ausencia == ausencia.id>
+                                            <th>${ausencia.dataSaida}</th>
+                                        </#if>
+
+                                        <#if plano.ausencia == ausencia.id>
+                                            <th>${ausencia.dataRetorno}</th>
+                                        </#if>
+
+                                            <#list diarios as diario>
+                                                <#if ausencia.diario == diario.id>
+                                                    <th>${diario.dataAula}</th>
+                                                </#if>
+                                            </#list>
+                                </#list>
+                                    <th>${plano.conteudoReposicao}</th>
+                                    <th>${plano.aprovacaoAlunos}</th>
+                                    <th>${plano.quantidadeDeAulas}</th>
+                                    <th>${plano.categoria}</th>
                             </tr>        
                         </#list>
                     </tbody>

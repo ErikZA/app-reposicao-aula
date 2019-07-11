@@ -1,7 +1,7 @@
 package com.reposicao.reposicaoAulaProjeto.entidades.reposicao;
 
 import com.reposicao.reposicaoAulaProjeto.entidades.academia.Aluno;
-import com.reposicao.reposicaoAulaProjeto.entidades.ausencia.AbstractRelatorioAusencia;
+import com.reposicao.reposicaoAulaProjeto.entidades.ausencia.RelatorioAusenciaPrevista;
 import com.reposicao.reposicaoAulaProjeto.excecoes.exceptionPlanoRejeitadoAlunos;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -22,26 +22,27 @@ import java.util.List;
 public class PlanoDeReposicao implements Serializable {
 
     @Column
-    @Id @GeneratedValue(strategy = GenerationType.AUTO)
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     @Column
     private int quantidadeDeAulas;
     @OneToOne
-    private AbstractRelatorioAusencia ausencia;
+    private RelatorioAusenciaPrevista ausencia;
     @Column
     private String conteudoReposicao;
-    //presencial ou não
-    @Enumerated (EnumType.STRING)
+    // presencial ou não
+    @Enumerated(EnumType.STRING)
     private Categoria categoria;
-    //alunos que aprovarão o plano
+    // alunos que aprovarão o plano
     @Column
-    private double aprovacaoAlunos ;
-   //Aprovado pelo cordenador
-    @Column(nullable = true)
+    private double aprovacaoAlunos;
+    // Aprovado pelo cordenador
+    @Column
     private boolean aprovado;
 
     public void setAprovacaoAlunos(double aprovacaoAlunos) throws exceptionPlanoRejeitadoAlunos {
-        if(aprovacaoAlunos<75) {
+        if (aprovacaoAlunos < 75) {
             throw new exceptionPlanoRejeitadoAlunos(aprovacaoAlunos);
         } else {
             this.aprovacaoAlunos = aprovacaoAlunos;

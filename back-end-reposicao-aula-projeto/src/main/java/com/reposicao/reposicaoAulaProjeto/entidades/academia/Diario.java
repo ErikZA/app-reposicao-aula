@@ -2,7 +2,6 @@ package com.reposicao.reposicaoAulaProjeto.entidades.academia;
 
 
 import com.reposicao.reposicaoAulaProjeto.excecoes.exceptionAulasFull;
-import com.reposicao.reposicaoAulaProjeto.excecoes.exceptionForaCalendario;
 import com.reposicao.reposicaoAulaProjeto.excecoes.exceptionNaoInformouAlunos;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,7 +10,6 @@ import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.Date;
 
 
 @Entity
@@ -37,8 +35,7 @@ public class Diario implements Serializable {
     @Enumerated (EnumType.STRING)
     private Status status;
     @Column
-    @Temporal(TemporalType.TIMESTAMP)//timestamp_format = 'dd/mm/yyyy hh24:mi:ss.ff';
-    private Date dataAula;
+    private String dataAula;
     @Enumerated (EnumType.STRING)
     private DiaSemana diaSemana;
 
@@ -56,14 +53,6 @@ public class Diario implements Serializable {
             throw new exceptionNaoInformouAlunos(status.NAO_APROVADA.toString());
         } else {
             this.status = status;
-        }
-    }
-
-    public void setDataAula(Date dataAula) throws exceptionForaCalendario {
-        if(dataAula.after(disciplina.getFimPeriodo())){
-            throw new exceptionForaCalendario(dataAula.toString());
-        } else {
-            this.dataAula = dataAula;
         }
     }
 }

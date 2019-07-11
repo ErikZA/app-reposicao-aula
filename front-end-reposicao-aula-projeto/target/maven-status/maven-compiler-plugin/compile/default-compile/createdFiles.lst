@@ -1,4 +1,13 @@
-com\reposicao\reposicaoAulaProjeto\apresentacao\AlunoModel.class
-com\reposicao\reposicaoAulaProjeto\apresentacao\AlunoModel$AlunoModelBuilder.class
+com\reposicao\reposicaoAulaProjeto\apresentacao\control\RelatorioAusenciaController.class
+com\reposicao\reposicaoAulaProjeto\apresentacao\control\PlanoDeReposicaoController.class
+com\reposicao\reposicaoAulaProjeto\apresentacao\model\DiarioModel.class
+com\reposicao\reposicaoAulaProjeto\apresentacao\model\AlunoModel$AlunoModelBuilder.class
 com\reposicao\reposicaoAulaProjeto\ProjectExampleApplication.class
-com\reposicao\reposicaoAulaProjeto\apresentacao\AlunoController.class
+com\reposicao\reposicaoAulaProjeto\apresentacao\model\RelatorioAusenciaModel$RelatorioAusenciaModelBuilder.class
+com\reposicao\reposicaoAulaProjeto\apresentacao\model\DiarioModel$DiarioModelBuilder.class
+com\reposicao\reposicaoAulaProjeto\apresentacao\control\AlunoController.class
+com\reposicao\reposicaoAulaProjeto\apresentacao\control\DiarioController.class
+com\reposicao\reposicaoAulaProjeto\apresentacao\model\AlunoModel.class
+com\reposicao\reposicaoAulaProjeto\apresentacao\model\PlanoDeReposicaoModel.class
+com\reposicao\reposicaoAulaProjeto\apresentacao\model\PlanoDeReposicaoModel$PlanoDeReposicaoModelBuilder.class
+com\reposicao\reposicaoAulaProjeto\apresentacao\model\RelatorioAusenciaModel.class
