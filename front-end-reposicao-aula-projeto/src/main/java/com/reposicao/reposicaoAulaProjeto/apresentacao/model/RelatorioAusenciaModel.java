@@ -14,7 +14,8 @@ public class RelatorioAusenciaModel {
     private Long id;
     private String dataSaida;
     private String dataRetorno;
-    private long diario;
+    private int diario;
     private String motivoComentario;
     private String dataComunicado;
+
 }

@@ -2,43 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f4daf2a-0bd8-4089-902d-a3d82fe6e7d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/controller/ControllerFixo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/servico/AusenciaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/servico/DiarioService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/servico/PlanoDeReposicaoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/AlunoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/DiarioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/PlanoDeReposicaoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/RelatorioAusenciaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/AlunoModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/DiarioModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/PlanoDeReposicaoModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/entidades/academia/Diario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/entidades/academia/Diario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/entidades/ausencia/AbstractRelatorioAusencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/entidades/ausencia/AbstractRelatorioAusencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/entidades/ausencia/RelatorioAusenciaImprevista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/entidades/ausencia/RelatorioAusenciaImprevista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/entidades/ausencia/RelatorioAusenciaNaoInformada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/entidades/ausencia/RelatorioAusenciaNaoInformada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/entidades/ausencia/RelatorioAusenciaPrevista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/entidades/ausencia/RelatorioAusenciaPrevista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/entidades/reposicao/PlanoDeReposicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/entidades/reposicao/PlanoDeReposicao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/negocio/AlunoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/negocio/PlanoDeReposicaoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/servico/AlunoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/servico/AlunoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/AlunoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/AlunoModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/DiarioModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/PlanoDeReposicaoModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/RelatorioAusencia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/plano-de-reposicao-view.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/plano-de-reposicao-view.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teste.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/AlunoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/AlunoModel$AlunoModelBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/AlunoModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/DiarioModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/PlanoDeReposicaoModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/RelatorioAusencia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/plano-de-reposicao-view.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/plano-de-reposicao-view.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/teste.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/controller/ControllerFixo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/controller/ControllerFixo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/servico/AusenciaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end-reposicao-aula-projeto/src/main/java/com/reposicao/reposicaoAulaProjeto/servico/AusenciaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/PlanoDeReposicaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/PlanoDeReposicaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/PlanoDeReposicaoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/PlanoDeReposicaoModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/RelatorioAusenciaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/RelatorioAusenciaModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/model/PlanoDeReposicaoModel$PlanoDeReposicaoModelBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/model/PlanoDeReposicaoModel$PlanoDeReposicaoModelBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/model/PlanoDeReposicaoModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/model/PlanoDeReposicaoModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/model/RelatorioAusenciaModel$RelatorioAusenciaModelBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/model/RelatorioAusenciaModel$RelatorioAusenciaModelBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/model/RelatorioAusenciaModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reposicao/reposicaoAulaProjeto/apresentacao/model/RelatorioAusenciaModel.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/RelatorioAusenciaModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +42,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/PlanoDeReposicaoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+            <state relative-caret-position="305">
+              <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/PlanoDeReposicaoModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/RelatorioAusenciaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="289">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -93,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/DiarioController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="289">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -105,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/plano-de-reposicao-view.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="1751">
               <caret line="103" column="51" selection-start-line="103" selection-start-column="51" selection-end-line="103" selection-end-column="51" />
             </state>
           </provider>
@@ -134,12 +119,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/RelatorioAusenciaModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/DiarioModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/AlunoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/PlanoDeReposicaoModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/DiarioController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/RelatorioAusenciaController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/DiarioModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/RelatorioAusenciaModel.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/plano-de-reposicao-view.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/RelatorioAusenciaModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/PlanoDeReposicaoModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/PlanoDeReposicaoController.java" />
       </list>
     </option>
@@ -190,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -273,6 +257,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,17 +313,20 @@
       <workItem from="1562796284841" duration="1988000" />
       <workItem from="1562801703777" duration="5436000" />
       <workItem from="1562808527001" duration="860000" />
+      <workItem from="1562811667935" duration="61000" />
+      <workItem from="1562812009514" duration="519000" />
+      <workItem from="1562813138424" duration="469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12044000" />
+    <option name="totallyTimeSpent" value="13093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2624811" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -426,16 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/PlanoDeReposicaoModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/AlunoModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -455,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/RelatorioAusenciaModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -465,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/RelatorioAusenciaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -475,7 +453,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/DiarioController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -485,15 +463,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/plano-de-reposicao-view.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="1751">
           <caret line="103" column="51" selection-start-line="103" selection-start-column="51" selection-end-line="103" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/model/PlanoDeReposicaoModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/reposicao/reposicaoAulaProjeto/apresentacao/control/PlanoDeReposicaoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+        <state relative-caret-position="305">
+          <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

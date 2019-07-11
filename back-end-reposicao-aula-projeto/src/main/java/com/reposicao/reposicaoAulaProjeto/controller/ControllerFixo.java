@@ -29,15 +29,15 @@ public class ControllerFixo {
 
       for(PlanoDeReposicao auxPlano : plano){
           for(RelatorioAusenciaPrevista auxAusencia : ausenciaPrevistas) {
-              if (auxPlano.getId() == auxAusencia.getId()){
-                  auxPlano.setAusencia(auxAusencia);
-                  planoDeReposicaoRepository.save(auxPlano);
-              }
               for(Diario auxDiario : diario) {
                   if (auxAusencia.getId() == auxDiario.getId()){
                       auxAusencia.setDiario(auxDiario);
                       ausenciaPrevistaRepository.save(auxAusencia);
               }
+                  if (auxPlano.getId() == auxAusencia.getId()){
+                      auxPlano.setAusencia(auxAusencia);
+                      planoDeReposicaoRepository.save(auxPlano);
+                  }
               }
               }
           }

@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 public class PlanoDeReposicaoModel {
     private long id;
     private int quantidadeDeAulas;
-    private long ausencia;
+    private int ausencia;
     private String conteudoReposicao;
     private String categoria;
     private double aprovacaoAlunos ;

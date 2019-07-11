@@ -1,6 +1,7 @@
 package com.reposicao.reposicaoAulaProjeto.servico;
 
 
+import com.reposicao.reposicaoAulaProjeto.dao.academiaRepository.DiarioRepository;
 import com.reposicao.reposicaoAulaProjeto.dao.ausenciaRepository.AusenciaPrevistaRepository;
 import com.reposicao.reposicaoAulaProjeto.entidades.ausencia.RelatorioAusenciaPrevista;
 import lombok.extern.java.Log;
@@ -18,6 +19,8 @@ import java.util.Optional;
 public class AusenciaService {
     @Autowired
     private AusenciaPrevistaRepository ausenciaPrevistaRepository;
+    @Autowired
+    private DiarioRepository diarioRepository;
 
     @GetMapping("/servico/ausencia")
     public ResponseEntity<List<RelatorioAusenciaPrevista>> listar() {
